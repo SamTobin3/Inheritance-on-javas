@@ -1,0 +1,13 @@
+
+public class Rectangle extends Shape
+{
+	private double height;
+	private double width;
+	
+	public Rectangle(double h, double w)
+	{
+		height = h;
+		width = w;
+		setArea(height * width);
+	}
+}
